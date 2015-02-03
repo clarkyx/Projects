@@ -1,0 +1,45 @@
+.buttonClass{	
+	margin:0px;
+	height: 1.5em;
+	font-size: 1em;
+	width:75px;
+	float:right;
+	border-width: 2px;
+
+}
+
+ .inputClass{
+ 	margin:0px;
+	font-size: 1em;
+	float:right;
+
+ 	width: 70px;
+ 	border-width: 2px;
+ 	height: 2em;
+
+ }
+
+.container{
+
+	margin-top: 10px;
+	margin-right:10px;
+	margin-bottom: 20px;
+	margin-left: 235px;
+
+	width:auto;
+
+}
+
+
+.center{
+
+	width: 200px;
+  	display: block;
+
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top:0;
+  	margin-bottom: 0;
+
+  	padding: 0;
+}

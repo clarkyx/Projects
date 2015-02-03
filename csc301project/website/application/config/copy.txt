@@ -1,0 +1,72 @@
+	
+		array(
+			'field' => 'managerposition',
+			'label' => 'Manager Position',
+			'rules' => 'required|max_length[60]'
+		),
+		
+		array(
+			'field' => 'programfc',
+			'label' => 'Program Facilitator',
+			'rules' => 'required|max_length[60]'
+		),
+		
+		array(
+			'field' => 'fcposition',
+			'label' => 'Program Facilitator Position',
+			'rules' => 'required|max_length[60]'
+		),
+		
+		array(
+			'field' => 'address',
+			'label' => 'Mailing Address',
+			'rules' => 'required'
+		),
+		
+		array(
+			'field' => 'phone',
+			'label' => 'Phone Number',
+			'rules' => 'required|is_unique[client.phone]|alpha_dash'
+		),
+			
+		array(
+			'field' => 'fax',
+			'label' => 'Fax Number',
+			'rules' => 'is_unique[client.fax]|alpha_dash'
+		),
+		
+		array(
+			'field' => 'email',
+			'label' => 'Email Address',
+			'rules' => 'required|valid_email|max_length[120]|is_unique[user.email]'
+		),
+		
+		array(
+			'field' => 'agreement',
+			'label' => 'Fax Number',
+			'rules' => 'max_length[40]'
+		),
+		
+		array(
+			'field' => 'insurance',
+			'label' => 'Valid Insurance',
+			'rules' => 'max_length[40]'
+		),
+		
+		array(
+			'field' => 'agreement',
+			'label' => 'Fax Number',
+			'rules' => 'max_length[40]'
+		),
+		
+		array(
+			'field' => 'password',
+			'label' => 'Password',
+			'rules' => 'required|min_length[6]'
+		),
+		
+		array(
+			'field' => 'passconf',
+			'label' => 'Password Confirmation',
+			'rules' => 'required|min_length[6]|matches[password]'
+		)

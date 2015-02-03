@@ -1,0 +1,278 @@
+html, body {
+  font-family: Helvetica, Arial;
+  height: 100%;
+  font-size: 12pt;
+  background: #CBDEED;
+}
+
+p {
+    line-height: 120%;
+}
+
+
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.background {
+    border-top: 2px solid #bbb;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background img {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.centered {
+   position: absolute;
+   top: 186px;
+   right: -38px;
+   padding-top: 10px;
+   width: 250px;
+   height:auto;
+   background-color: transparent;
+   border-radius: 15px;
+   padding-bottom: 10px;
+}
+
+ul {
+    width:auto;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+}
+
+li {
+    padding:4px; 
+    font-size: 12px;
+    
+
+}
+
+.specialH{
+    float:left;
+    font-size: 1.75em;
+    margin: 0 0 0 0;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+}
+
+h5{
+    
+    float:right;
+    font-size: 1em;
+    bottom:0;
+    margin: 5px 5px 5px 0;
+    color: white;
+
+}
+
+h5 a{
+    margin-right: 55px;
+    text-decoration: none;
+    color: white;
+}
+
+.line{
+    height: 1px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(255,255,255,0.65) 50%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(50%,rgba(255,255,255,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(255,255,255,0.65) 50%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(255,255,255,0.65) 50%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(255,255,255,0.65) 50%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(255,255,255,0.65) 50%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+
+label {
+    width:100px;
+    margin-top: 3px;
+    display:inline-block;
+    padding:3px;
+}
+
+
+.source-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+input[type=text], input[type=password] {
+    height: 22px;
+    width: 188px;
+    border-radius: 2px 2px 2px 2px;
+    border-style: none;
+    margin-left: 16%;
+    padding-left: 10px;  
+    font-size: 1.2em;
+    outline:none;
+    opacity: 1;
+    
+}
+
+label{
+    font-size: 1.5em;
+    margin-left: 3px;
+}
+
+
+.header{
+    /* position: fixed; */
+    top:0px;
+    left:0px;
+    width : 100%;
+    height: 50px;
+    background-color:  rgb(181,195,207);
+    opacity: 1;
+}
+
+.footer {
+    padding: 20px 0;
+    width:100%;
+    height: auto;
+    font-size: 10pt;
+    background: white;
+}
+
+.special {
+width: auto;
+float: left;
+list-style: none;
+color: black;
+}
+
+.special li{
+    border-bottom: none;
+}
+
+
+section#about {
+    float: left;
+    width: 55%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+section#address {
+    float: right;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 35%;
+    height: auto;
+    display: inline-block;
+}
+
+h6 {
+font-size: 12px;
+margin: 0 0 8px;
+font-family: sysfoxboxtscregular;
+color : black;
+text-transform: uppercase;
+border-bottom: 1px solid rgb(116,142,166);
+}
+
+.banner{
+position: absolute;
+border-radius: 0px 0px 3px 3px;
+top: 2px;
+left: 50px;
+width: 250px;
+height: 184px;
+background-color: #005DA9;
+/* position: absolute; */
+}
+
+.login {
+position: absolute;
+float: right;
+top: 87px;
+right: -37px;
+background: url(images/login.gif) no-repeat bottom right;
+}
+
+.btnbg {
+    position: absolute;
+    right: 6px;
+}
+
+.loginImage {
+position: absolute;
+top: 127px;
+right: -60px;
+background: url(images/login.gif) no-repeat bottom right;
+}
+
+.spImage{
+    position: relative;
+    display: block;
+    width: 80%;
+    margin-top: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+/* === Button Style === */
+input.submit {
+    background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #68b12f, #50911e);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: -ms-linear-gradient(top, #68b12f, #50911e);
+    background: -o-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    margin-bottom: 5px;
+    margin-left:15%;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    width:200px;
+    height: 30px;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+}
+input.submit:hover {
+    opacity:.85;
+    cursor: pointer; 
+}
+input.submit:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset; 
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+
